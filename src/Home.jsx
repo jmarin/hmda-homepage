@@ -5,6 +5,35 @@ const Home = () => {
     <main className="home" id="main-content">
       <div className="usa-grid">
         <div className="usa-width-one-whole">
+          <div
+            className="usa-alert usa-alert-warning"
+            style={{ marginTop: '3em' }}
+          >
+            <div className="usa-alert-body">
+              <h3 className="usa-alert-heading">Maintenance notification</h3>
+              <p className="usa-alert-text" style={{ marginBottom: '1em' }}>
+                The HMDA filing application, tools, and publication data will be
+                unavailable this weekend from Friday June 22nd at 5pm EST to
+                Monday June 25th at 9am EST for scheduled maintenance.
+              </p>
+              <p className="usa-alert-text">
+                This includes the rate spread tool. For your convenience, the
+                “Average Prime Offer Rates”{' '}
+                <a href="https://s3.amazonaws.com/cfpb-hmda-public/prod/apor/YieldTableFixed.txt">
+                  fixed table
+                </a>{' '}
+                or{' '}
+                <a href="https://s3.amazonaws.com/cfpb-hmda-public/prod/apor/YieldTableAdjustable.txt">
+                  adjustable table
+                </a>{' '}
+                are still available for download, along with the{' '}
+                <a href="https://s3.amazonaws.com/cfpb-hmda-public/prod/apor/SurveyTable.csv">
+                  mortgage rate survey data
+                </a>.
+              </p>
+            </div>
+          </div>
+
           <header>
             <h1>The Home Mortgage Disclosure Act</h1>
             <p className="usa-font-lead">

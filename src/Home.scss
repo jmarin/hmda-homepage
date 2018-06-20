@@ -54,8 +54,13 @@
     margin-bottom: 0.25em;
     vertical-align: middle;
   }
-  .usa-alert-info {
+  .usa-alert-info,
+  .usa-alert-warning,
+  .usa-alert-error {
     background-image: none;
+    p {
+      color: $color-base;
+    }
   }
   .usa-alert-body {
     padding-left: 0;
