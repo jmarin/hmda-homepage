@@ -6,15 +6,14 @@ const Home = () => {
       <div className="usa-grid">
         <div className="usa-width-one-whole">
           <div
-            className="usa-alert usa-alert-warning"
+            className="usa-alert usa-alert-error"
             style={{ marginTop: '3em' }}
           >
             <div className="usa-alert-body">
               <h3 className="usa-alert-heading">Maintenance notification</h3>
               <p className="usa-alert-text" style={{ marginBottom: '1em' }}>
-                The HMDA filing application, tools, and publication data will be
-                unavailable this weekend from Friday June 22nd at 5pm EST to
-                Monday June 25th at 9am EST for scheduled maintenance.
+                The HMDA filing application, tools, and publication data are
+                currently unavailable this weekend for scheduled maintenance.
               </p>
               <p className="usa-alert-text">
                 This includes the rate spread tool. For your convenience, the
