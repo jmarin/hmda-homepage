@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../img/ffiec-logo.svg'
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
             <ul className="usa-unstyled-list">
               <li className="usa-footer-primary-content">
                 <a className="usa-nav-link" href="/" aria-label="Home">
-                  <img alt="FFIEC" src="/img/ffiec-logo.svg" height="21" />
+                  <img alt="FFIEC" src={logo} height="21" />
                   Home Mortgage Disclosure Act
                 </a>
               </li>

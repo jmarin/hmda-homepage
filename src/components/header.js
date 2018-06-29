@@ -1,12 +1,12 @@
 import React from 'react'
-import BannerUSA from './BannerUSA.jsx'
-import logo from './ffiec-logo.svg'
+import BannerUSA from './bannerUSA.jsx'
+import logo from '../img/ffiec-logo.svg'
 
 const links = [
   { name: 'Home', href: '/' },
   { name: 'Filing', href: '/filing/' },
   { name: 'Data Publication', href: '/data-publication/' },
-  { name: 'Tools', href: '/tools/' },
+  { name: 'Tools', href: '/tools/' }
 ]
 
 const basename = window.location.pathname.split('/')[1]

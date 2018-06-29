@@ -1,5 +1,5 @@
 import React from 'react'
-import flag from '../../../img/favicons/favicon-57.png'
+import flag from '../img/favicons/favicon-57.png'
 
 const USABanner = () => {
   return (
