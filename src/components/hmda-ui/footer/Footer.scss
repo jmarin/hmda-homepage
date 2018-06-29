@@ -1,0 +1,19 @@
+.Footer {
+  .usa-nav-link {
+    color: #1f498f;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration: none;
+
+    img {
+      margin-right: 5px;
+      vertical-align: top;
+    }
+  }
+}
+@media screen and (min-width: 600px) {
+  .usa-footer-slim .usa-footer-primary-section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}

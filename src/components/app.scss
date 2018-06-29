@@ -1,0 +1,11 @@
+@import 'uswds-customer-vars.scss';
+@import 'node_modules/uswds/src/stylesheets/all.scss';
+@import 'Home.scss';
+@import 'node_modules/hmda-ui/index.scss';
+
+@media screen and (min-width: 600px) {
+  .usa-footer-slim .usa-footer-primary-section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
