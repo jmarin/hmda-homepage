@@ -9,7 +9,10 @@ const links = [
   { name: 'Tools', href: '/tools/' }
 ]
 
-const basename = window.location.pathname.split('/')[1]
+let basename
+if (typeof window !== 'undefined' && window.location) {
+  basename = window.location.pathname.split('/')[1]
+}
 
 const isLinkActive = href => {
   const linkClass = 'usa-nav-link'

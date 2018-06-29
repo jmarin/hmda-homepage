@@ -1,7 +1,8 @@
 @import 'uswds-customer-vars.scss';
 @import 'node_modules/uswds/src/stylesheets/all.scss';
 @import 'home.scss';
-@import 'node_modules/hmda-ui/index.scss';
+@import 'header.scss';
+@import 'footer.scss';
 
 @media screen and (min-width: 600px) {
   .usa-footer-slim .usa-footer-primary-section {
