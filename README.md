@@ -31,7 +31,7 @@ After building your desired project, you can visit it by running a static webser
 helm install --name hmda-homepage -f kubernetes/hmda-homepage/values.yaml kubernetes/hmda-homepage 
 ```
 
-5. You should be able to access the `HMDA` homepage by issuing the following command: 
+5. If you use `minikube` you should be able to access the `HMDA` homepage by issuing the following command: 
 
 ```shell
 minikube service hmda-homepage
